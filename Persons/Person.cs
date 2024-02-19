@@ -1,5 +1,3 @@
-using Mysqlx.Crud;
-
 namespace ApiDotNet.Persons;
 
 public class Person {
