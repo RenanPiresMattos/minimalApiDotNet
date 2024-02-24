@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\ApiDotNet\\ApiDotNet\\ApiDotNet.csproj": {}
+    "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\minimalApiDotNet\\ApiDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\ApiDotNet\\ApiDotNet\\ApiDotNet.csproj": {
+    "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\minimalApiDotNet\\ApiDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\ApiDotNet\\ApiDotNet\\ApiDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\minimalApiDotNet\\ApiDotNet.csproj",
         "projectName": "ApiDotNet",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\ApiDotNet\\ApiDotNet\\ApiDotNet.csproj",
+        "projectPath": "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\minimalApiDotNet\\ApiDotNet.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\ApiDotNet\\ApiDotNet\\obj\\",
+        "outputPath": "C:\\Users\\renan\\OneDrive\\Área de Trabalho\\Repositórios\\minimalApiDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,9 +53,9 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
-            "MySql.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

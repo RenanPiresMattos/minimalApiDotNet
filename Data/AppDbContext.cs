@@ -1,4 +1,4 @@
-using ApiDotNet.Persons;
+using ApiDotNet.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiDotNet.Data;
@@ -8,7 +8,7 @@ public class AppDbContext : DbContext {
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseMySQL("Server=;Database=;Uid=;Pwd=;");
+        optionsBuilder.UseSqlite("Data Source=mydb.sqlite");
         base.OnConfiguring(optionsBuilder);
     }
 }

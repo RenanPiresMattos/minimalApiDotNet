@@ -1,4 +1,4 @@
-namespace ApiDotNet.Persons;
+namespace ApiDotNet.Models;
 
 public class Person {
     public Guid Id { get; init; }

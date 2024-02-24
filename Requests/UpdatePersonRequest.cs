@@ -1,3 +1,3 @@
-namespace ApiDotNet.Persons;
+namespace ApiDotNet.Requests;
 
 public record UpdatePersonRequest(string Name, int Age);

@@ -1,9 +1,12 @@
 using ApiDotNet.Data;
+using ApiDotNet.Requests;
+using ApiDotNet.Models.Dtos;
+using ApiDotNet.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiDotNet.Persons;
 
-public static class PersonEndPoint
+public static class PersonEndpoint
 {
 
     public static void AddPersonEndPoint(this WebApplication app)

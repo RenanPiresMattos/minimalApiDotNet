@@ -7,7 +7,7 @@ code -r ../ApiDotNet
 dotnet dev-certs https --trust
 
 dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package MySql.EntityFrameworkCore (Ou de preferência)
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite (Ou de preferência)
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
 -- Migration --
